@@ -1,0 +1,11 @@
+*.log
+*.pot
+*.pyc
+*.vscode
+*.idea
+*.env
+*__pycache__/
+*media/
+*output/
+*env/
+inputs/
