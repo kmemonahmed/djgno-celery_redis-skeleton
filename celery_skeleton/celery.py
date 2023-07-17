@@ -4,9 +4,9 @@ import os
 from celery import Celery
 from django.conf import settings
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_redis_skeleton.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'celery_skeleton.settings')
 
-app = Celery('django_redis_skeleton')
+app = Celery('celery_skeleton')
 app.conf.enable_utc = False
 app.conf.update(timezone='Asia/Dhaka')
 
